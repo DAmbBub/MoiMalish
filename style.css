@@ -1,0 +1,237 @@
+* { margin : 0;
+
+padding : 0; border : 0;
+
+}
+
+
+body {
+
+padding : 2% 0 0; background : #fff; color : #333;
+
+font-family : "Comic Sans MS", Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+
+#container { width : 760px; margin : 0 auto;
+
+border : 1px solid #999;
+
+}
+
+
+#header {
+
+background : url(lol.jpg); width : 760px;
+
+
+
+height : 270px;
+
+}
+
+
+#nav {
+
+background : url(nav_bg.jpg) repeat-x; color : #800000;
+
+font-size : 120%; font-weight : bold; line-height : 1.8em; text-align : center;
+
+}
+
+
+#nav ul { list-style-type : none;
+
+}
+
+#nav li { display : inline; margin : 0 8px;
+
+}
+
+
+#nav li a { color : #FF0000;
+
+}
+
+
+#nav li a:hover { color : #f00;
+
+}
+
+a {
+
+text-decoration : none;
+
+}
+#text {
+
+width : 545px; font-size : 0.8em; color : #333; margin : 10px auto; float : left;
+
+}
+
+
+#text p { text-align : justify;
+
+text-indent : 1.5em; margin : 0; padding : 0 15px;
+
+}
+
+
+#text a { color : #396;
+
+}
+
+
+#text a:hover { color : #f36;
+
+border-bottom : 1px dotted #f36;
+
+}
+
+.img1 { width : 200px;
+
+height : 200px; margin : 0 0 0 15px; float : right;
+
+}
+
+.img2 { width : 200px;
+
+height : 200px;
+
+margin : 10px 10px 0 15px; float : left;
+
+}
+
+
+#members { width : 300px; height : 190px; float : right;
+
+}
+
+
+#members h2 { color : #f60; font-size : 120%; font-weight : bold; text-align : center;
+
+}
+
+
+#members ol { color : #000000; font-size : 120%; margin : 10px; float : left;
+
+}
+
+
+#members li { margin : 0 5px;
+
+}
+
+
+#members li a { color : #000000;
+
+}
+
+
+#members li a:hover { color : #000000;
+
+}
+
+.line {
+
+width : 304px; height : 13px; float : right;
+
+}
+
+
+#news { background : #ffc; width : 185px; color : #665; margin : 10px 5px; float : right;
+
+}
+
+
+#news h3 { color : #f60;
+
+
+
++
+
+font-size : 120%; font-weight : bold; text-align : center;
+
+}
+
+
+#news ul {
+
+list-style : url(marker.jpg) inside;
+
+}
+
+
+#news li { font-size : 75%; padding : 5px 10px;
+
+}
+
+
+#footer { background : #665; color : #FFFFFF; font-size : 70%; padding : 5px; clear : both;
+
+}
+
+
+#footer a { color : #FFFFFF;
+
+}
+
+#footer a:hover { color : #FFFFFF;
+
+}
+
+
+#footer p { padding : 2px; text-align : center;
+
+}
+
+.clearfloat { clear : both;
+
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+ 
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ 
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    -webkit-animation: scroll 15s infinite linear;
+    -moz-animation: scroll 15s infinite linear;
+    animation: scroll 15s infinite linear;
+}
